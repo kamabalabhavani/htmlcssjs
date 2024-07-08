@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Elements</title>
+</head>
+<body>
+    <h2>Form Element</h2>
+    <form action="submit.php"methods="post"></form>
+    <label for="username">Username:</label>
+    <input type"text" id="username"name="username"placeholder="Enter your username">
+    <label for="password">password:
+    <input type="password" id="password" placeholder="enter your password">
+    <fieldset>
+        <legend>Gender:</legend>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">>Female</label>
+        <input type="radio" id="other" name="Gender"value="other">
+        <label for="other">Other</label>
+    </fieldset>
+    <fieldset>
+        <legend>Interests:</legend>
+        <input type="checkbox" id="coding" name="intrests[]" value="coding">
+        <label for="coding">Coding</label>
+        <input type="checkbox" id="gaming" name="intrests[]" value="gaming">
+        <label for="gaming">Gaming</label>
+        <input type="checkbox" id="reading" name="intrests[]" value="reading">
+        <label for="reading">Reading</label>
+    </fieldset>
+    <label for="country">Country:</label>
+    <select id="country" name="country">
+    <option value="usa">United States</option>
+    <option value="canada">canada</option>
+    <option value="uk">United Kingdom</option>
+    <s/elect>
+    <label for="comments">Comments:</label>
+    <textarea id="comments" name="comments" rows="4" colos="50" placeholder="Enter your comments"></textarea>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset>"
+    </form>
+</body>
+</html>
